@@ -21,10 +21,10 @@ package v1
 import (
 	time "time"
 
-	samplecrdv1 "github.com/resouer/k8s-controller-custom-resource/pkg/apis/samplecrd/v1"
-	versioned "github.com/resouer/k8s-controller-custom-resource/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/resouer/k8s-controller-custom-resource/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/resouer/k8s-controller-custom-resource/pkg/client/listers/samplecrd/v1"
+	samplecrdv1 "github.com/LeoNumber1/k8s-controller-custom-resource/pkg/apis/samplecrd/v1"
+	versioned "github.com/LeoNumber1/k8s-controller-custom-resource/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/LeoNumber1/k8s-controller-custom-resource/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/LeoNumber1/k8s-controller-custom-resource/pkg/client/listers/samplecrd/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

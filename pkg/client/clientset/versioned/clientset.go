@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	samplecrdv1 "github.com/resouer/k8s-controller-custom-resource/pkg/client/clientset/versioned/typed/samplecrd/v1"
+	samplecrdv1 "github.com/LeoNumber1/k8s-controller-custom-resource/pkg/client/clientset/versioned/typed/samplecrd/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
